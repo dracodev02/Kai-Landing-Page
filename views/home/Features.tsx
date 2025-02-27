@@ -14,28 +14,28 @@ const features = [
     title: "Tsuchi",
     description:
       "Tsuchi automatically indexes your game state and exposes GraphQL and gRPC APIs for your world to consume. No longer do you need to write boilerplate code to manage your game state.",
-    href: "/",
+    href: "https://kai-engine.gitbook.io/kai-engine",
   },
   {
     tag: "High-Performance Gaming Sequencer",
     title: "Mizu",
     description:
       "Mizu is a high-performance sequencer for onchain game development. Spin up a local sequencer with one command and deploy your world with another.",
-    href: "/",
+    href: "https://kai-engine.gitbook.io/kai-engine",
   },
   {
     tag: "Rust Libraries",
     title: "Kaze",
     description:
       "Kaze exposes a range of pre-built components and libraries to help you build your game faster. Kaze is built on top of KAI core.",
-    href: "/",
+    href: "https://kai-engine.gitbook.io/kai-engine",
   },
   {
     tag: "CLI Tool",
     title: "Sora",
     description:
       "A command line interface tool to help you manage your games. Sora helps you create new games, manage your game state, and deploy your games to networks",
-    href: "/",
+    href: "https://kai-engine.gitbook.io/kai-engine",
   },
 ];
 
@@ -77,14 +77,16 @@ const Features = () => {
             </p>
           </div>
 
-          <StarBorder as="button" classContainer="w-fit" speed="5s">
-            <Link
-              href={features[active].href}
-              className="flex items-center gap-1 group"
-            >
-              <p className="font-bold text-[0.6em]">Document</p>
-              <IoIosArrowForward className="group-hover:translate-x-1 transition-all" />
-            </Link>
+          <StarBorder
+            as="a"
+            classContainer="w-fit"
+            speed="5s"
+            href={features[active].href}
+            className="flex items-center gap-1 group"
+            target="_blank"
+          >
+            <p className="font-bold text-[0.6em]">Document</p>
+            <IoIosArrowForward className="group-hover:translate-x-1 transition-all" />
           </StarBorder>
         </div>
         <div className="flex justify-around md:flex-col gap-6 relative z-[1]">

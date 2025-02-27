@@ -23,15 +23,15 @@ const BuildWithKai = () => {
             applications and worlds.
           </p>
           <StarBorder
-            as="button"
+            as="a"
             classContainer="w-fit"
-            className="px-[24px]"
+            className="flex items-center gap-1 group"
             speed="5s"
+            target="_blank"
+            href="https://kai-engine.gitbook.io/kai-engine"
           >
-            <div className="flex items-center gap-1 group">
-              <p className="font-bold text-[0.6em]">Document</p>
-              <IoIosArrowForward className="group-hover:translate-x-1 transition-all text-[0.6em]" />
-            </div>
+            <p className="font-bold text-[0.6em]">Document</p>
+            <IoIosArrowForward className="group-hover:translate-x-1 transition-all text-[0.6em]" />
           </StarBorder>
         </div>
         <div className="flex flex-col">
@@ -45,15 +45,15 @@ const BuildWithKai = () => {
             Start playing games in seconds!
           </p>
           <StarBorder
-            as="button"
+            as="a"
             classContainer="w-fit"
-            className="px-[24px]"
+            className="flex items-center gap-1 group"
             speed="5s"
+            href="https://kai-engine.gitbook.io/kai-engine"
+            target="_blank"
           >
-            <div className="flex items-center gap-1 group">
-              <p className="font-bold text-[0.6em]">Document</p>
-              <IoIosArrowForward className="group-hover:translate-x-1 transition-all text-[0.6em]" />
-            </div>
+            <p className="font-bold text-[0.6em]">Document</p>
+            <IoIosArrowForward className="group-hover:translate-x-1 transition-all text-[0.6em]" />
           </StarBorder>
         </div>
       </div>

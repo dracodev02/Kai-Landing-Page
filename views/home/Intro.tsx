@@ -20,7 +20,9 @@ const Intro = () => {
         </Magnet>
         <Magnet padding={50} disabled={false} magnetStrength={20}>
           <StarBorder
-            as="button"
+            as="a"
+            href="https://kai-engine.gitbook.io/kai-engine"
+            target="_blank"
             className="px-[24px]"
             speed="5s"
             variant="outline"

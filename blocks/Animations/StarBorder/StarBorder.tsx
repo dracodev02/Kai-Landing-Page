@@ -31,7 +31,7 @@ const StarBorder = <T extends React.ElementType = "button">({
   const Component = as || "button";
 
   const classes = clsx(
-    "relative z-1 bg-gradient-to-b text-white text-center py-[12px] px-[40px] rounded-full",
+    "relative z-1 bg-gradient-to-b text-white text-center py-[8px] px-[24px] rounded-full",
     variant === "primary" && "bg-primary",
     variant === "outline" && "bg-black border border-primary",
     className

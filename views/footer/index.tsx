@@ -17,8 +17,9 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="#"
+                    href="https://kai-engine.gitbook.io/kai-engine"
                     className="hover:underline text-[0.8em] text-white/75"
+                    target="_blank"
                   >
                     Documentation
                   </Link>

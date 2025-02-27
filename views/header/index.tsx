@@ -2,6 +2,7 @@ import kaiLogo from "@/assets/kai-logo.svg";
 import Image from "next/image";
 import { FaGithub, FaTelegram, FaXTwitter } from "react-icons/fa6";
 import StarBorder from "@/blocks/Animations/StarBorder/StarBorder";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -15,7 +16,13 @@ const Header = () => {
 
           <FaTelegram className="text-[1em] " />
         </div>
-        <StarBorder as="button" className="custom-class" speed="5s">
+        <StarBorder
+          as="a"
+          href="https://kai-engine.gitbook.io/kai-engine"
+          className=""
+          speed="5s"
+          target="_blank"
+        >
           <p className="font-bold text-[0.6em]">Docs</p>
         </StarBorder>
       </div>
