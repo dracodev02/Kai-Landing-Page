@@ -13,12 +13,22 @@ const Intro = () => {
         simplified building onchain games and autonomous worlds.
       </p>
       <div className="flex items-center gap-3">
-        <Magnet padding={50} disabled={false} magnetStrength={20}>
-          <StarBorder as="button" className="custom-class" speed="5s">
+        <Magnet
+          padding={50}
+          disabled={false}
+          magnetStrength={20}
+          innerClassName="flex"
+        >
+          <StarBorder as="button" className="" speed="5s">
             <p className="font-bold text-[0.6em]">Toolchain</p>
           </StarBorder>
         </Magnet>
-        <Magnet padding={50} disabled={false} magnetStrength={20}>
+        <Magnet
+          padding={50}
+          disabled={false}
+          magnetStrength={20}
+          innerClassName="flex"
+        >
           <StarBorder
             as="a"
             href="https://kai-engine.gitbook.io/kai-engine"
